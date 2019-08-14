@@ -1,0 +1,211 @@
+body {
+    background: #efefef;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    color: #5181b8;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+
+/* wrapper-form - common styles */
+
+.wrapper-form {
+    padding: 25px 16px 25px 10px;
+    font-weight: 400;
+    overflow: hidden;
+    width: 350px;
+    height: auto;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .13);
+    margin: auto;
+}
+
+.wrapper-form label {
+    color: #777;
+    font-size: 17px;
+}
+
+.wrapper-form form .input,
+.wrapper-form input[type=text],
+.wrapper-form input[type=password],
+.wrapper-form input[type=e] {
+    background: #fbfbfb;
+    font-size: 15px;
+    line-height: 1;
+    width: 100%;
+    height: 25px;
+    padding: 3px;
+    margin: 0 6px 5px 0;
+    outline: none;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    color: #777;
+    transition: 0.2s
+}
+
+.wrapper-form form .input:focus {
+    border: 1px solid #5181b8;
+    box-shadow: 0 0 5px 0 rgba(35, 117, 194, 0.75);
+}
+
+.wrapper-form form .input:hover {
+    border: 1px solid #5181b8;
+    box-shadow: 0 0 5px 0 rgba(35, 117, 194, 0.75);
+    transition: 0.2s
+}
+
+.title-text {
+    color: #777;
+    text-align: center;
+    font-weight: 300;
+    font-size: 20px;
+    border: 1px dashed #777;
+    margin-top: 13px;
+    margin-bottom: 30px;
+}
+
+.title-text h1 {
+    font-size: 30px;
+}
+
+.wrapper-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper-button button {
+    border: solid 1px #5181b8;
+    background: #5181b8;
+    color: #fff;
+    padding: 7px 12px;
+    border-radius: 4px;
+    float: right;
+    cursor: pointer;
+    transition: 0.4s;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.wrapper-button button:hover {
+    background: #608dc0;
+    transition: 0.4s;
+}
+
+.button {
+    border: solid 1px #5181b8;
+    background: #5181b8;
+    color: #fff;
+    padding: 7px 12px;
+    border-radius: 4px;    
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.button:hover {
+    background: #608dc0;
+    transition: 0.4s;
+}
+
+.wrapper-menu-text {
+    text-align: center;
+}
+
+.main-page {
+    text-decoration: none;
+    color: #5181b8;
+    transition: 0.5s;
+}
+
+.main-page:hover {
+    color: #6d95c4;
+    transition: 0.5s
+}
+
+.form-main-page {
+    width: 450px;
+}
+
+.main-page {
+    width: 430px;
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+.form-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 1.125rem;
+    color: #90caf9;
+  }
+
+
+/* YouTube */
+
+.window_video iframe {
+    margin: 0 auto;
+    display: block;
+}
+
+.thumbnail-wrapper {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow: auto;
+}
+
+.titleDiv {
+    width: 600px;
+    height: 600px;    
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;   
+}
+
+
+/* Telegram */
+
+.btn-addbot {
+    background: red;
+    border: solid 1px red;
+    transition: 0.5s  
+}
+
+.btn-addbot:hover {
+    background: rgb(238, 115, 115);  
+    border: solid 1px rgb(238, 115, 115);
+    transition: 0.5s  
+}
+
+
+
+/* Instagram */
+
+.btn-photo {
+    float: right;
+}
+
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.img-block {
+    max-width: 600px;
+    height: 600px;
+    margin-top: 15px;
+}
+
+.img-block img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
